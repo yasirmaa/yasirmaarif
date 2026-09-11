@@ -1,19 +1,23 @@
-import { Button } from "@/components/ui/button"
+import { Navbar } from "./components/common/navbar"
+import { Hero } from "./components/landing/hero"
+import { About } from "./components/landing/about"
+import { Experience } from "./components/landing/experience"
+import { Projects } from "./components/landing/projects"
+import { Contact } from "./components/landing/contacts"
+import { Footer } from "./components/common/footer"
 
-export function App() {
+function App() {
   return (
-    <div className="flex min-h-svh p-6">
-      <div className="flex max-w-md min-w-0 flex-col gap-4 text-sm leading-loose">
-        <div>
-          <h1 className="font-medium">Project ready!</h1>
-          <p>You may now add components and start building.</p>
-          <p>We&apos;ve already added the button component for you.</p>
-          <Button className="mt-2">Button</Button>
-        </div>
-        <div className="font-mono text-xs text-muted-foreground">
-          (Press <kbd>d</kbd> to toggle dark mode)
-        </div>
-      </div>
+    <div className="min-h-screen bg-paper">
+      <Navbar />
+      <main>
+        <Hero />
+        <About />
+        <Experience />
+        <Projects />
+        <Contact />
+      </main>
+      <Footer />
     </div>
   )
 }
