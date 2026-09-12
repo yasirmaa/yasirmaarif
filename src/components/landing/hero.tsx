@@ -29,7 +29,7 @@ function AvailabilityBadge() {
         </defs>
         <text className="fill-ink text-[8.5px] font-medium tracking-[0.18em] uppercase">
           <textPath href="#badge-circle" startOffset="0%">
-            Tersedia untuk kerja sama • SMILE •
+            Terus Belajar & Bertumbuh Bersama•
           </textPath>
         </text>
       </motion.svg>
@@ -105,7 +105,7 @@ export function Hero() {
                 animate="show"
                 custom={0.3}
                 variants={revealUp}
-                className="font-heading text-6xl leading-[0.9] font-medium tracking-tight text-stone-light italic sm:pl-16 sm:text-8xl lg:pl-24 lg:text-[7.5rem] xl:text-[9rem]"
+                className="font-heading text-6xl leading-[0.9] font-medium tracking-tight text-gold italic sm:pl-16 sm:text-8xl lg:pl-24 lg:text-[7.5rem] xl:text-[9rem]"
               >
                 Maarif
               </motion.h1>

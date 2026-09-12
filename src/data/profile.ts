@@ -1,8 +1,8 @@
 export const profile = {
   name: "Yasir Maarif",
-  role: "Frontend Developer",
+  role: "Software Engineer",
   tagline:
-    "Membangun aplikasi web yang scalable, rapi, dan mudah dirawat dengan ReactJS, Laravel dan NextJS.",
+    "Membangun aplikasi website modern dengan fokus pada pengalaman pengguna dan kualitas kode menggunakan ReactJs, NextJs, dan Laravel.",
   location: "Surabaya, Indonesia",
   email: "yasirmaarif26@gmail.com",
   phone: "+62 852 3053 8453",
@@ -101,27 +101,50 @@ export type Project = {
   description: string
   tech: string[]
   link?: string
+  src?: string
   size: "wide" | "tall" | "normal"
 }
 
 export const projects: Project[] = [
   {
+    title: "Website Yayasan SDM IPTEK",
+    category: "Website — Personal Project",
+    description:
+      "Website resmi Yayasan SDM IPTEK, menampilkan informasi yayasan, program beasiswa, prestasi, dan portal sistem kegiatan dengan desain responsif dan modern.",
+    tech: ["Next.js", "TypeScript", "Shadcn UI", "Zustand"],
+    link: "https://sdmiptek.com",
+    size: "wide",
+    src: "src/assets/images/asrama.png",
+  },
+  {
     title: "Online Course Platform",
     category: "Website — Internship Project",
     description:
       "Platform online course responsif untuk penyampaian konten belajar terstruktur, mendukung katalog kursus, navigasi modul, enrollment, dan pelacakan progres pengguna.",
-    tech: ["React.js", "TypeScript", "Tailwind CSS", "Redux"],
+    tech: ["React.js", "TypeScript", "Shadcn UI", "Redux"],
     link: "https://github.com/yasirmaa",
-    size: "wide",
+    size: "normal",
+    src: "src/assets/images/edu.png",
   },
   {
     title: "Computerized Maintenance Management System",
     category: "Website — Internship Project",
     description:
       "Sistem internal untuk mendigitalkan operasi pemeliharaan aset: work order, penjadwalan preventive maintenance, dashboard real-time, dan role-based access control.",
-    tech: ["React.js", "TypeScript", "Tailwind CSS", "TanStack"],
-    link: "https://github.com/yasirmaa",
+    tech: ["React.js", "TypeScript", "Shadcn UI", "TanStack"],
+    link: "#",
     size: "normal",
+    src: "src/assets/images/cmms.png",
+  },
+  {
+    title: "TBSense — Smart Agriculture Dashboard",
+    category: "Website — Hackathon Project",
+    description:
+      "Prototipe agrikultur presisi yang menghubungkan monitoring kebun, analitik geospasial, dan eksplorasi berbantuan AI. Juara 3 Hackathon Sawit Nasional 2025.",
+    tech: ["React.js", "TypeScript", "Shadcn UI", "TanStack", "GMaps API"],
+    link: "https://www.pens.ac.id/2025/10/10/hadirkan-solusi-cerdas-tbsense-empat-mahasiswa-pens-raih-juara-3-pada-hackathon-sawit-nasional-2025/",
+    size: "wide",
+    src: "src/assets/images/tbsense.png",
   },
   {
     title: "Company Profile — Architecture Firm",
@@ -129,17 +152,19 @@ export const projects: Project[] = [
     description:
       "Website company profile untuk firma arsitektur dan interior, menampilkan portofolio, tim, layanan, dan galeri proyek dinamis dengan animasi GSAP.",
     tech: ["Laravel", "Blade", "Tailwind CSS", "MySQL", "GSAP"],
-    link: "https://github.com/yasirmaa",
+    link: "#",
     size: "normal",
+    src: "src/assets/images/company-profile.png",
   },
   {
     title: "Graph RAG vs Vector RAG Analysis",
-    category: "Final Project — Research",
+    category: "Research - Final Project",
     description:
       "Studi komparatif pendekatan Graph RAG dan Vector RAG untuk optimasi pipeline Retrieval-Augmented Generation pada data JSON terstruktur, mengevaluasi akurasi retrieval, relevansi konteks, dan kualitas respons.",
     tech: ["Python", "LangChain", "Neo4j", "ChromaDB", "OpenAI API"],
-    link: "https://github.com/yasirmaa",
-    size: "wide",
+    link: "https://github.com/yasirmaa/final-project-fe",
+    size: "normal",
+    src: "src/assets/images/rag.png",
   },
 ]
 

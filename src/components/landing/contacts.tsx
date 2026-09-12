@@ -45,7 +45,8 @@ export function Contact() {
           <Button variant="secondary" className="text-ink hover:text-gold">
             <a
               href={profile.cvUrl}
-              download
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-2"
             >
               <Download size={16} />
