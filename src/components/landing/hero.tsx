@@ -175,7 +175,7 @@ export function Hero() {
                 <img
                   src={profile.photo}
                   alt={profile.name}
-                  className="h-full w-full object-cover object-top contrast-[1.15] grayscale-[0.8] transition-all duration-700 ease-in-out hover:contrast-100 hover:grayscale-0"
+                  className="h-full w-full object-cover object-top contrast-[1.15] grayscale-[0.8] transition-all duration-700 ease-in-out hover:scale-105 hover:rotate-1 hover:contrast-100 hover:grayscale-0 hover:saturate-150"
                 />
               </div>
 

@@ -114,7 +114,7 @@ export const projects: Project[] = [
     tech: ["Next.js", "TypeScript", "Shadcn UI", "Zustand"],
     link: "https://sdmiptek.com",
     size: "wide",
-    src: "src/assets/images/asrama.png",
+    src: "/images/asrama.png",
   },
   {
     title: "Online Course Platform",
@@ -124,7 +124,7 @@ export const projects: Project[] = [
     tech: ["React.js", "TypeScript", "Shadcn UI", "Redux"],
     link: "https://github.com/yasirmaa",
     size: "normal",
-    src: "src/assets/images/edu.png",
+    src: "/images/edu.png",
   },
   {
     title: "Computerized Maintenance Management System",
@@ -134,7 +134,7 @@ export const projects: Project[] = [
     tech: ["React.js", "TypeScript", "Shadcn UI", "TanStack"],
     link: "#",
     size: "normal",
-    src: "src/assets/images/cmms.png",
+    src: "/images/cmms.png",
   },
   {
     title: "TBSense — Smart Agriculture Dashboard",
@@ -144,7 +144,7 @@ export const projects: Project[] = [
     tech: ["React.js", "TypeScript", "Shadcn UI", "TanStack", "GMaps API"],
     link: "https://www.pens.ac.id/2025/10/10/hadirkan-solusi-cerdas-tbsense-empat-mahasiswa-pens-raih-juara-3-pada-hackathon-sawit-nasional-2025/",
     size: "wide",
-    src: "src/assets/images/tbsense.png",
+    src: "/images/tbsense.png",
   },
   {
     title: "Company Profile — Architecture Firm",
@@ -154,7 +154,7 @@ export const projects: Project[] = [
     tech: ["Laravel", "Blade", "Tailwind CSS", "MySQL", "GSAP"],
     link: "#",
     size: "normal",
-    src: "src/assets/images/company-profile.png",
+    src: "/images/company-profile.png",
   },
   {
     title: "Graph RAG vs Vector RAG Analysis",
@@ -164,7 +164,7 @@ export const projects: Project[] = [
     tech: ["Python", "LangChain", "Neo4j", "ChromaDB", "OpenAI API"],
     link: "https://github.com/yasirmaa/final-project-fe",
     size: "normal",
-    src: "src/assets/images/rag.png",
+    src: "/images/rag.png",
   },
 ]
 

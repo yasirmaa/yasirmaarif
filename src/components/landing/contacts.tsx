@@ -42,7 +42,10 @@ export function Contact() {
               WhatsApp
             </a>
           </Button>
-          <Button variant="secondary" className="text-ink hover:text-gold">
+          <Button
+            variant="secondary"
+            className="bg-white text-ink hover:text-gold"
+          >
             <a
               href={profile.cvUrl}
               target="_blank"
@@ -63,7 +66,7 @@ export function Contact() {
             className="group flex items-center gap-2 transition-colors duration-300 hover:text-gold"
           >
             <img
-              src={"/src/assets/icon/linkedin_w.png"}
+              src={"/icons/linkedin_w.png"}
               alt=""
               className="h-4 w-4 opacity-80 transition-opacity group-hover:opacity-100"
             />
