@@ -5,20 +5,24 @@ import { Experience } from "./components/landing/experience"
 import { Projects } from "./components/landing/projects"
 import { Contact } from "./components/landing/contacts"
 import { Footer } from "./components/common/footer"
+import { CustomCursor } from "./components/common/custom-cursor"
 
 function App() {
   return (
-    <div className="min-h-screen bg-paper">
-      <Navbar />
-      <main>
-        <Hero />
-        <About />
-        <Experience />
-        <Projects />
-        <Contact />
-      </main>
-      <Footer />
-    </div>
+    <>
+      <CustomCursor />
+      <div className="min-h-screen bg-paper">
+        <Navbar />
+        <main>
+          <Hero />
+          <About />
+          <Experience />
+          <Projects />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
+    </>
   )
 }
 

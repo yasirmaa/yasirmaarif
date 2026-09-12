@@ -139,9 +139,13 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply cursor-none bg-background text-foreground;
   }
   html {
     @apply scroll-smooth font-sans;
+  }
+  a,
+  button {
+    @apply cursor-none;
   }
 }
